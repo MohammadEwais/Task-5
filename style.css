@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Parent{
+    background-color: hotpink;
+    height: 1500px;
+    width: 1500px; 
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.childFake{
+    width:33.3%;
+    
+}
+.childFake1{
+    width:33.3%;
+    display:flex;
+    justify-content: end;
+   
+}
+.childFake2{
+    width:33.3%;
+    display:flex;
+    justify-content: center;
+   
+}
+.child{
+    width: 300px;
+    height: 300px;
+    padding:6px;
+    background-color: peachpuff;
+    overflow: scroll;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    box-shadow: 0px 0px 10px ;
+}
+h1{
+    text-shadow: 0px 0px 10px ;
+}
+.TitleCard {
+    width:300px;
+    text-align: center;
+    box-shadow: 0 0 10px;
+}
+img{
+    box-shadow: 0 0 10px;
+    width:300px;
+}
+.CardText{
+    box-shadow: 0 0 10px;
+    width:300px;
+    
+}
